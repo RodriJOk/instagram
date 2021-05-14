@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--bg-color);
@@ -18,10 +24,21 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 54px;
+    align-items: center;
 }
 
-.header__title{
+.header__logo__image{
+    width: 103px;
+    height: 29px;
+}
 
+.buscador{
+    border-radius: 15px;
+    width: 200px;
+    border: 1px solid #ccc;
 }
 
 .stories-container{
