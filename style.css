@@ -10,7 +10,7 @@ body{
 }
 
 .rodri{
-    background-color: rgba(var(--b3f,250,250,250),1);
+    background-color: rgba(250,250,250,1);
     margin-top: 30px;
 }
 
@@ -71,7 +71,7 @@ body{
 .stories-container{
     display: flex;
     height: 120px;
-    border: solid 2px #ccc;
+    border: solid 1px #ccc;
     padding: 16px 0;
 }
 
@@ -102,6 +102,7 @@ body{
     padding: 0;
     margin-top: 2px;
     border: solid 1px var(--bg-color);
+    object-fit: cover;
 }
 
 .story .title{
@@ -167,9 +168,9 @@ body{
 
 /* Publicacion de instagram */
 .stories-image{
-    border: 1px solid red;
     margin-top: 100px;
     background-color: rgba(250,250,250,1);
+    border: 1px solid #ccc;
 }
 
 .stories-image__header{
@@ -191,14 +192,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between	;
-    border: 1px solid green;
     margin-left: 15px;
     width: 100%;
 }
 
-.header-container__data{
-    border: 1px solid red;
-}
 
 .image-header__title{
     font-size: 14px;
