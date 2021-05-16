@@ -11,6 +11,7 @@ body{
 
 .rodri{
     background-color: rgba(var(--b3f,250,250,250),1);
+    margin-top: 30px;
 }
 
 .stories-wrapper{
@@ -33,6 +34,7 @@ body{
     justify-content: space-around;
     height: 54px;
     align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .header__logo__image{
@@ -68,8 +70,9 @@ body{
 
 .stories-container{
     display: flex;
+    height: 120px;
     border: solid 2px #ccc;
-    padding: px 0;
+    padding: 16px 0;
 }
 
 .story{
@@ -84,21 +87,21 @@ body{
     background: rgb(255, 201, 0);
     background: linear-gradient(36deg, rgb(255, 201, 0)13%,rgb(255, 0, 95) 73%, rgb(255, 9, 237)100%);
     ;
-    padding: 5px;
+    padding: 0px;
+    margin: 0;
     box-sizing: border-box;
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%; 
 }
 
 .story .profile img{
-    width: 100px;
-    height: 100px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     padding: 0;
-    margin: 0;
-    border: solid 5px var(--bg-color);
-
+    margin-top: 2px;
+    border: solid 1px var(--bg-color);
 }
 
 .story .title{
@@ -160,4 +163,52 @@ body{
     100%{
         background: linear-gradient(396deg, rgb(255, 255, 255)0%, rgb(255, 255, 255)25%, rgb(255, 201, 0) 28%, rgb(255, 0, 95)73%, rgb(255, 9, 237)100%);       
     }
+}
+
+/* Publicacion de instagram */
+.stories-image{
+    border: 1px solid red;
+    margin-top: 100px;
+    background-color: rgba(250,250,250,1);
+}
+
+.stories-image__header{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    height: 60px;
+}
+
+.header-image__user{
+    width: 35px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.header-container__user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between	;
+    border: 1px solid green;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.header-container__data{
+    border: 1px solid red;
+}
+
+.image-header__title{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.image-header__description{
+    font-size: 12px;
+}
+
+.stories-image__image{
+    width: 100%;
 }
